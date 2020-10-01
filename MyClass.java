@@ -92,7 +92,7 @@ public class MyClass {
     public static void main(String arg[]) {
         Scanner Sc = new Scanner(System.in);
         System.out.println("--------------------------------");
-        System.out.println("###  WELCOME TO ONLINE BANK ### ");
+        System.out.println("###  WELCOME TO ONLINE BANK System### ");
         System.out.println("--------------------------------");
         System.out.println();
         System.out.println("How many New Accounts do you want to create?");
