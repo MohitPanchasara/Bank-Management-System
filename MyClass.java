@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.Random;
 
 class BankAccount{
-	private String username;
+	private String username;  
 	private String password;
 	private long Account;
 	private long Balance;
@@ -10,7 +10,7 @@ class BankAccount{
 	Random rand  = new Random();
 	Scanner Sc = new Scanner(System.in);
 	
-	void AccountBalance(){
+	void AccountBalance(){    // for account related management
 		int Pin = rand.nextInt(1000);
 		long Bal;
 		Account = Pin;
@@ -88,7 +88,7 @@ class BankAccount{
 
 }
 
-public class MyClass {
+public class MyClass {           // main class
     public static void main(String arg[]) {
         Scanner Sc = new Scanner(System.in);
         System.out.println("--------------------------------");
